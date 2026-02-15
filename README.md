@@ -49,7 +49,9 @@ This cluster is built on the following hardware:
 │   └── operations.md       # Graceful shutdown/restart procedures
 ├── scripts/                # Automation scripts
 │   └── install_k8s_deps.sh # Script to install K8s dependencies
+├── CONTRIBUTING.md         # Contribution guidelines & branching strategy
 └── README.md               # This file
+
 ```
 
 ## 🚀 Getting Started
@@ -59,3 +61,6 @@ Check out the **[Docs](./docs/)** folder to follow the step-by-step installation
 *   **Bare Metal**: Configuring Linux kernel parameters (`cgroup_memory=1`, `swapoff`) manually.
 *   **Networking**: Understanding L2 Load Balancing vs Cloud Load Balancers.
 *   **Persistence**: Implementing distributed storage on ephemeral media.
+
+## 🤝 Contribution
+I follow a structured branching strategy for this project. Please check [CONTRIBUTING.md](./CONTRIBUTING.md) for details on how to contribute or propose changes.
